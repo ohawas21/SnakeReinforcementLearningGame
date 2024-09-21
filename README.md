@@ -1,6 +1,5 @@
 # AI-models-
-**SnakeReinforcementLearningGame
-**
+**SnakeReinforcementLearningGame**
 
 steps by step how this game is being implemented and a documentation for the code that is attached to this project. 
 
