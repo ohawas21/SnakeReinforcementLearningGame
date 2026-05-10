@@ -4,7 +4,7 @@
 steps by step how this game is being implemented and a documentation for the code that is attached to this project. 
 
 we start up by setting up the enviroment for this game:
-1. that holds the first step tp define the steps adn the directions that the snake will seek and will need to follow
+1. that holds the first step to define the steps and the directions that the snake will seek and will need to follow
 2. define a class which will hold all the functions that needed to be implmented to define the movements of the snake and the goal that it seeks for and the score that needs to be updated
 3. the functions as follows:
 4. __init__ which intiates the game and define the size of the frame that we have.
