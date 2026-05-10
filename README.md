@@ -8,7 +8,7 @@ we start up by setting up the enviroment for this game:
 2. define a class which will hold all the functions that needed to be implmented to define the movements of the snake and the goal that it seeks for and the score that needs to be updated
 3. the functions as follows:
 4. __init__ which intiates the game and define the size of the frame that we have.
-5. reset() which defines that that when teh snake collides to the wall or to itslef it requires to run this function in order to start the game all from the beggining
+5. reset() which defines that that when the snake collides to the wall or to itslef it requires to run this function in order to start the game all from the beggining
 6. placefood() which defines placing the different colored point as on the frame and set it as a target for the snake adn it would be really imporatnt in teh process of learning teh agent as it is defined as the goal that we have which would define of whether the snake did something rigth to receive a reward or something wrong to receive a punshiment.
 7. isCollison() which defines all cases of collssion that the snake can have, either a collison with the target ball itself so with respect the score needs to be increased as a sort of reward, a collssion with itself which means that game over is true and that the game needs to be restarted again, and finally that the snake has collided with tha wall itself which means that also it is a game over and the agent receives a score of negative because of doing something worng in order to learn out it as a sort of trainig.
 8. movesnake() which defines the movement of snake itself through out decreasing from the dimensions of the blocksize defined at the beggining in the direction where the snake does move now.
